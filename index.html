@@ -51,6 +51,86 @@
             </li>
           </ul>
         </address>
+
+        <button class="burder-btn">
+          <svg class="burder-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-solid-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">
+            <svg class="mobile-btn-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-nav-list">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="./index.html">Studio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="mobile-contacts">
+            <ul class="mobile-contacts-list">
+              <li class="mobile-contacts-item">
+                <a class="mobile-contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-contacts-item">
+                <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="mobile-social-box">
+            <ul class="mobile-social-list">
+              <li class="mobile-social-item">
+                <a class="mobile-social-link" href="">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="mobile-social-item">
+                <a class="mobile-social-link" href="">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="mobile-social-item">
+                <a class="mobile-social-link" href="">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="mobile-social-item">
+                <a class="mobile-social-link" href="">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -62,7 +142,7 @@
         </div>
       </section>
 
-      <section class="section-advantages section">
+      <section class="section-advantages section hidden">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="list-advantages">
@@ -118,7 +198,7 @@
         </div>
       </section>
 
-      <section class="section-team section">
+      <section class="section-team section hidden">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="list-team">
@@ -300,7 +380,7 @@
         </div>
       </section>
 
-      <section class="section-portfolio section">
+      <section class="section-portfolio section hidden">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="list-portfolio">
@@ -430,7 +510,7 @@
       </section>
     </main>
 
-    <footer class="page-footer section">
+    <footer class="page-footer section hidden">
       <div class="container footer-box">
         <div class="footer-container">
           <a class="logo footer-logo" href="./index.html"
@@ -478,8 +558,6 @@
             </li>
           </ul>
         </div>
-
-        <!-- footer form -->
 
         <div class="footer-content-form">
           <p class="footer-text">Subscribe</p>
@@ -591,8 +669,10 @@
               <span class="check-mark">
                 <svg class="icon-check" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg></span
-              >I accept the terms and conditions of the
-              <a href="" class="check-link">Privacy Policy</a>
+              ><span class="check-text"
+                >I accept the terms and conditions of the
+                <a href="" class="check-link">Privacy Policy</a></span
+              >
             </label>
           </div>
 
