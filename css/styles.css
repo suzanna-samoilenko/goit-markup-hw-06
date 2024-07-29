@@ -236,7 +236,7 @@ img {
 
 .mobile-menu.is-open {
   opacity: 1;
-  /* visibility: visible; */
+  visibility: visible;
   pointer-events: auto;
 }
 
@@ -1015,7 +1015,7 @@ img {
 
 .backdrop.is-open {
   opacity: 1;
-  /* visibility: visible; */
+  visibility: visible;
   pointer-events: auto;
 }
 
